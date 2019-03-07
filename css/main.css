@@ -4,5 +4,8 @@ p {
 
 h1 {
   font-family: Righteous, cursive;
+}
+
+h1, span {
   color: #fac740;
 }
