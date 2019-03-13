@@ -1,11 +1,60 @@
+.wrapper {
+  background-color: #fffaef;
+  padding: .5em;
+}
+
+.border-thicc {
+  border: 4px solid #000;
+  margin: 1em;
+}
+
 p {
   font-family: Raleway, sans-serif;
 }
 
 h1 {
   font-family: Righteous, cursive;
+  color: #fac740;
 }
 
-h1, span {
-  color: #fac740;
+.span {
+  color: rgba(250, 199, 64, .6);
+}
+
+.pin-down-a-lil-bit-from-left-top {
+  position: absolute;
+  left: 0;
+  top: .25em;
+}
+
+.pin-up-a-lil-bit {
+  position: absolute;
+  left: 0;
+  top: -.35em;
+}
+
+.circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #fac740;
+}
+
+.pin-circle {
+  position: absolute;
+  right: 42px;
+  bottom: 42px;
+}
+
+.circle-stroke {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.pin-circle-stroke {
+  position: absolute;
+  right: 51px;
+  bottom: 51px;
 }
